@@ -1,0 +1,53 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+stocktober_venv/
+*.env
+
+# Pytest cache and coverage reports
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# IDE settings
+.idea/
+.vscode/
+*.swp
+
+# Python egg files
+*.egg
+*.egg-info/
+dist/
+build/
+*.egg-info
+
+# Logs and local database files
+*.log
+*.sqlite3
+*.db
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.pid
+*.seed
+*.log
+
+# MacOS files
+.DS_Store
+
+# Docker
+*.env
+docker-compose.override.yml
+
+# Ignore deployment artifacts
+*.gz
+*.zip
+*.tar
